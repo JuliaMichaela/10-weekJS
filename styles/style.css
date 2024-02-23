@@ -6,3 +6,14 @@ img{
     height: auto;
    
 }
+
+.images {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.gallery {
+    width: 200px;
+    height: auto;
+}
