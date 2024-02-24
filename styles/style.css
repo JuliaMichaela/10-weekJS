@@ -1,4 +1,6 @@
-
+h2 {
+    display: flex;
+}
 
 
 img{
@@ -9,7 +11,7 @@ img{
 
 .images {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: ; */
     margin: 0 auto;
 }
 

@@ -7,7 +7,15 @@ function sayJS () {
 sayJS ();
 
 //Практическое здание 3
+const img = document.getElementById('img');
 
+function showNext(){
+    img.src = './assets/images/ Faroe-Island.jpeg'
+}
+
+function showPrev(){
+    img.src = './assets/images/lednik-argentina.jpeg'
+}
 
 
 //Задание под звёздочкой ***
