@@ -6,7 +6,6 @@ h2 {
 img{
     width: 500px;
     height: auto;
-   
 }
 
 .images {
@@ -15,7 +14,4 @@ img{
     margin: 0 auto;
 }
 
-.gallery {
-    width: 200px;
-    height: auto;
-}
+
