@@ -28,6 +28,6 @@ function calculateTotalPrice(quantity = 2, price = 15000000) {
 }
 
 
-console.log (calculateTotalPrice())
+// console.log (calculateTotalPrice())
 
 // alert(`Стоимость покупки: ${calculateTotalPrice()} рублей`)
