@@ -10,25 +10,24 @@
     <section>
         <h2>IMAGES</h2>
         <div class="container">
-            <div>
                 <img src="./assets/images/ Faroe-Island.jpeg" id="img" alt="Faroe-Island">
-            </div>
         </div>
-        <button onclick="showNext()">Prev</button>
-        <button onclick="showPrev()">Next</button>
+        <div class="button">
+            <button onclick="showNext()">Prev</button>
+            <button onclick="showPrev()">Next</button>
+        </div>
     </section>
-    <section>
+
+    <section class="task2">
         <h2>GALLERY</h2>
         <div class="images">
-            <div class="gallery">
                 <img src="./assets/images/Paris.jpg" alt="Paris">
-            </div>
-            <div class="gallery">
                 <img src="./assets/images/Rain.jpg" alt="Rain">
-            </div>
         </div>
-        <button onclick="calculateTotalPrice()">Find out the cost</button>
-        <div id="content"></div>
+        <div class="button">
+            <button onclick="calculateTotalPrice()">Find out the cost</button>
+            <div id="content"></div>
+        </div>
     </section>
 
     <script src="./script.js"></script>

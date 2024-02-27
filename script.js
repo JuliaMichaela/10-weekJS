@@ -24,10 +24,5 @@ function showPrev(){
 function calculateTotalPrice(quantity = 2, price = 15000000) {
     const result = quantity * price;
     return content.textContent = `Стоимость покупки: ${result.toLocaleString('ru-RU')} рублей`
-
 }
 
-
-// console.log (calculateTotalPrice())
-
-// alert(`Стоимость покупки: ${calculateTotalPrice()} рублей`)
